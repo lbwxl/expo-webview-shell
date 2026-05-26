@@ -14,7 +14,7 @@ import { WebView } from 'react-native-webview';
 const IS_WEB = Platform.OS === 'web';
 const DEV_TARGET_URL = 'http://192.168.0.5:5500/index.html';
 const PROD_TARGET_URL = 'https://lbwxl.github.io/website-xy/';
-const TARGET_URL = __DEV__ ? DEV_TARGET_URL : DEV_TARGET_URL;
+const TARGET_URL = __DEV__ ? DEV_TARGET_URL : PROD_TARGET_URL;
 const WEBVIEW_SOURCE = { uri: TARGET_URL };
 
 const WEB_IFRAME_STYLE: CSSProperties = {

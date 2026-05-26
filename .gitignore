@@ -25,6 +25,11 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+expo-bg.log
+expo-bg.err.log
+
+# local editor settings
+.vscode/
 
 # macOS
 .DS_Store
